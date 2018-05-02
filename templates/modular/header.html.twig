@@ -1,9 +1,10 @@
-<header>
+<!-- Header -->
+<header class="masthead">
     <div class="container">
         <div class="intro-text">
             {{ content }}
             {% for button in page.header.buttons %}
-                <a class="page-scroll btn btn-xl" href="{{ button.url }}">{{ button.text }}</a>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ button.url }}">{{ button.text }}</a>
             {% endfor %}
         </div>
     </div>

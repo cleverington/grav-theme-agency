@@ -1,0 +1,53 @@
+{
+  "name": "grav-theme-agency",
+  "version": "0.1.0",
+  "author": "Andy Miller - Author of Grav CMS",
+  "contributors": [
+      "Charles Leverington (https://github.com/cleverington)"
+  ],
+  "description": "Parent theme for Agency/Bootstrap 4 update.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getgrav/grav-theme-agency"
+  },
+  "files": [
+    "dist",
+    "docs",
+    "src",
+    "**/*.scss",
+    "gulpfile.js"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "framework",
+    "flexbox",
+    "responsive",
+    "mobile-friendly",
+    "front-end",
+    "sass",
+    "modern"
+  ],
+  "bugs": {
+    "url": "https://github.com/getgrav/grav-theme-agency/issues"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "latest"
+  },
+  "browserslist": [
+    "last 4 Chrome versions",
+    "Edge >= 12",
+    "Firefox ESR",
+    "last 4 Safari versions",
+    "last 4 Opera versions",
+    "Explorer >= 10"
+  ],
+  "dependencies": {
+    "gulp-sourcemaps": "^2.6.1"
+  }
+}
