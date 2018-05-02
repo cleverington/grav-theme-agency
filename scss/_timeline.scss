@@ -48,7 +48,6 @@
       position: absolute;
       z-index: 100;
       left: 0;
-      width: 80px;
       height: 80px;
       margin-left: 0;
       text-align: center;
@@ -56,6 +55,9 @@
       border: 7px solid $gray-200;
       border-radius: 100%;
       background-color: $primary;
+      img {
+        max-width: 100%;
+      }
       h4 {
         font-size: 10px;
         line-height: 14px;
@@ -99,6 +101,22 @@
     }
   }
 }
+@media(min-width:250px){
+  .timeline {
+    > li {
+      .timeline-image {
+        width: 100px;
+        height: 100px;
+        h4 {
+          font-size: 13px;
+          line-height: 18px;
+          margin-top: 16px;
+        }
+      }
+    }
+  }
+}
+
 @media(min-width:768px) {
   .timeline {
     &:before {
@@ -171,7 +189,7 @@
         }
       }
       &.timeline-inverted > .timeline-panel {
-        padding: 0 100px 20px 20px;
+        padding: 0 100px 20px 30px;
       }
     }
   }
