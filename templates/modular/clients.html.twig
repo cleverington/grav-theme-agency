@@ -4,7 +4,7 @@
       {% for client in page.header.clients %}
         <div class="col-md-3 col-sm-6">
           <a href="{{ client.url }}">
-            <img src="{{ page.media[client.logo].url }}" class="img-fluid d-block mx-auto" alt="{{ page.media[client.logo].alt }}">
+            <img src="{{ page.media[client.logo].url }}" class="img-fluid d-block mx-auto" alt="{{ client.name }}">
           </a>
         </div>
       {% endfor %}

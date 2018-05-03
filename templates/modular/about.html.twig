@@ -13,7 +13,7 @@
             <li {% if about.align == 'inverted' %}class="timeline-inverted"{% endif %}>
               <div class="timeline-image">
                 {% if page.media[about.img] %}
-                  <img class="rounded-circle image-fluid" src="{{ page.media[about.img].url }}" alt="{{ page.media[about.img].alt }}">
+                  <img class="rounded-circle image-fluid" src="{{ page.media[about.img].url }}" alt="{{ about.alttext }}">
                 {% else %}
                   <h4>{{ about.alttext }}</h4>
                 {% endif %}
